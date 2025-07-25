@@ -1,0 +1,33 @@
+name: urban_life_manager
+description: A personal and professional life manager app.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Built-in
+  cupertino_icons: ^1.0.2
+
+  # Add-ons
+  local_auth: ^2.1.6
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
